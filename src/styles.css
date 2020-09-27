@@ -1,0 +1,16 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.boton_inicio {
+  width: 120px;
+  height: 40px;
+  margin-top: 60px;
+  background-color: lightblue;
+}
+.boton_registro {
+  width: 120px;
+  height: 40px;
+  margin-top: 10px;
+  background-color: lightblue;
+}
