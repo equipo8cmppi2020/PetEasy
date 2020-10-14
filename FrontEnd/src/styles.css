@@ -14,3 +14,30 @@
   margin-top: 10px;
   background-color: lightblue;
 }
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.textbox {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: lightblue;
+  text-align: center;
+  margin-block-start: -15px;
+}
+.textreference {
+  margin-top: -10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.boton_registro {
+  width: 120px;
+  height: 40px;
+  margin-left: 20px;
+  background-color: lightblue;
+}
+.recordarcontraseña {
+  background: none;
+  border: none;
+  margin-right: -20px;
+}
