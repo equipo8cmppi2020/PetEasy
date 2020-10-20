@@ -8,8 +8,7 @@ app.use(morgan('dev'))
 app.use(express.json())
 
 //Routes
-app.use("/api/", require("./routes/estudiantes"))
-app.use("/api/", require("./routes/actores"))
+app.use("/api/", require("./routes/usuarios"))
 
 app.get("/", (req, res) => {
   res.send("Api CRUD")
