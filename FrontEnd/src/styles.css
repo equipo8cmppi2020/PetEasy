@@ -14,10 +14,6 @@
   margin-top: 10px;
   background-color: lightblue;
 }
-.App {
-  font-family: sans-serif;
-  text-align: center;
-}
 .textbox {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -40,4 +36,22 @@
   background: none;
   border: none;
   margin-right: -20px;
+}
+.boton_inicio_formulario {
+  width: 120px;
+  height: 40px;
+  background-color: lightblue;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  margin-top: 20px;
+}
+.textbox_formulario {
+  width: 300px;
+}
+.boton_inicio_horario {
+  width: 150px;
+  height: 40px;
+  margin-top: 70px;
+  margin-right: 5px;
+  background-color: lightblue;
 }
