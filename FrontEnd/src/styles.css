@@ -69,3 +69,16 @@
   margin-top: 5px;
   background-color: lightblue;
 }
+
+.boton_mascotas {
+  width: 120px;
+  height: 40px;
+  margin-top: 10px;
+  background-color: lightblue;
+}
+.boton_cerrar {
+  width: 120px;
+  height: 40px;
+  margin-top: 10px;
+  background-color: lightblue;
+}
