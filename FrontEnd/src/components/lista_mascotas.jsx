@@ -1,6 +1,6 @@
 import React from "react";
-import "./styles.css";
-
+import "./style/styles.css";
+import { Link } from "react-router-dom";
 export default function lista_mascotas() {
   return (
     <div className="App">
@@ -14,8 +14,12 @@ export default function lista_mascotas() {
           height="230"
         />
       </h1>
-      <button class="boton_inicio">Editar Lista</button>
-      <button class="boton_inicio">Volver</button>
+      <Link to="lista" className="btn btn-primary boton_separacion">
+        Editar lista
+      </Link>
+      <Link to="/inicio" className="btn btn-primary boton_separacion">
+        Volver
+      </Link>
     </div>
   );
 }

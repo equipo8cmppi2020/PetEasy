@@ -1,8 +1,7 @@
 import React from "react";
 import "./style/styles.css";
 import { Link } from "react-router-dom";
-import registrarse from "../components/registrarse";
-export default function App() {
+export default function recuperarcontraseña_codigo() {
   return (
     <div className="App">
       <h5>PetEasy</h5>
@@ -15,24 +14,17 @@ export default function App() {
           height="180"
         />
       </h1>
-      <Link to="/formulario" className="btn btn-primary">
-        Agregar Mascota
-      </Link>
-      <p></p>
       <div classname="container">
+        <h5>Ingresar el codigo*</h5>
         <div classname="btn-group">
-          <Link to="/lista" className="btn btn-primary">
-            Lista de Mascotas
+          <input type="text"></input>
+        </div>
+        <div classname="btn-group">
+          <p></p>
+          <Link to="/registrarse" className="btn btn-primary boton_separacion">
+            Validar Código
           </Link>
         </div>
-        <p></p>
-        <div classname="btn-group">
-          <Link to="/App" className="btn btn-primary">
-            Cerrar Sesión
-          </Link>
-        </div>
-        <registrarse />
-        <p></p>
       </div>
     </div>
   );

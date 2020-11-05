@@ -23,15 +23,16 @@ export default function iniciar_sesion() {
       <textarea class="textbox">Inserte su contraseña aquí</textarea>
       <p></p>
       <input type="checkbox" class="checkbox"></input>Recordarme{" "}
-      <button class="recordarcontraseña">Olvidé mi contraseña</button>
+      <Link to="/correo" className="recordarcontraseña">
+        Olvidé mi contraseña
+      </Link>
       <p></p>
-
-
-      <Link to="/registrarse" className="btn btn-primary boton_inicio">
-          Registrarse
-            </Link>
-      <button class="boton_inicio">Volver</button>
+      <Link to="/inicio" className="btn btn-primary boton_separacion">
+        Iniciar Sesión
+      </Link>
+      <Link to="/app" className="btn btn-primary">
+        Volver
+      </Link>
     </div>
   );
 }
-

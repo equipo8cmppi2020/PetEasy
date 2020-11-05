@@ -1,8 +1,7 @@
 import React from "react";
-import "./components/style/styles.css"
+import "./components/style/styles.css";
 import registrarse from "./components/registrarse";
 import { Link } from "react-router-dom";
-
 
 export default function App() {
   return (
@@ -19,14 +18,16 @@ export default function App() {
       </h1>
       <div classname="container">
         <div classname="btn-group">
-       
-          <Link to="/iniciarsesion" className="btn btn-primary boton_inicio">
-          Iniciar sesión
-            </Link>
+          <p></p>
+          <Link to="/iniciarsesion" className="btn btn-primary">
+            Iniciar sesión
+          </Link>
         </div>
         <p></p>
         <div classname="btn-group">
-          <button class="boton_registro">Botón registro</button>
+          <Link to="/registrarse" className="btn btn-primary">
+            Registrarse
+          </Link>
         </div>
         <registrarse />
         <p></p>

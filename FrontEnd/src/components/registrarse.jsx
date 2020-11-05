@@ -1,6 +1,6 @@
 import React from "react";
 import "./style/styles.css";
-
+import { Link } from "react-router-dom";
 export default function registrarse() {
   return (
     <div className="App">
@@ -26,9 +26,12 @@ export default function registrarse() {
       <p></p>
       <textarea class="textbox">Confirme su contraseña aquí</textarea>
       <p></p>
-      <button class="boton_registro">Registrarse</button>{" "}
-      <button class="boton_registro">Volver</button>
+      <Link to="/inicio" className="btn btn-primary boton_separacion">
+        Registrarse
+      </Link>
+      <Link to="/App" className="btn btn-primary boton_separacion">
+        Volver
+      </Link>
     </div>
   );
 }
-

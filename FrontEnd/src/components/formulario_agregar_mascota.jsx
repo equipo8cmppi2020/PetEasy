@@ -1,6 +1,6 @@
 import React from "react";
-import "./styles.css";
-
+import "./style/styles.css";
+import { Link } from "react-router-dom";
 export default function formulario_agregar_mascota() {
   return (
     <div className="App">
@@ -46,9 +46,12 @@ export default function formulario_agregar_mascota() {
       <br></br>
       <input type="checkbox" class="checkbox"></input>Horario de baño <br></br>
       <p></p>
-      <button class="boton_inicio_formulario">Agregar mascota</button>
-      <button class="boton_inicio_formulario">Volver</button>
+      <Link to="/lista" className="btn btn-primary boton_separacion">
+        Agregar Mascota
+      </Link>
+      <Link to="/inicio" className="btn btn-primary boton_separacion">
+        Volver
+      </Link>
     </div>
   );
 }
-
