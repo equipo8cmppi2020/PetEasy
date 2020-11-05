@@ -36,6 +36,7 @@
   background: none;
   border: none;
   margin-right: -20px;
+  color: black;
 }
 .boton_inicio_formulario {
   width: 120px;
@@ -81,4 +82,7 @@
   height: 40px;
   margin-top: 10px;
   background-color: lightblue;
+}
+.boton_separacion {
+  margin-right: 10px;
 }
