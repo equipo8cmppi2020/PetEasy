@@ -1,7 +1,7 @@
 import React from "react";
-import "./styles.css";
+import "./style/styles.css";
 
-export default function App() {
+export default function registrarse() {
   return (
     <div className="App">
       <h5>PetEasy</h5>
@@ -22,13 +22,13 @@ export default function App() {
       <p></p>
       <textarea class="textbox">Inserte su contraseña aquí</textarea>
       <p></p>
-      <input type="checkbox" class="checkbox"></input>Recordarme{" "}
-      <button class="recordarcontraseña">Olvidé mi contraseña</button>
+      <h5 class="textreference">Confirmar contraseña*</h5>
       <p></p>
-      <button class="boton_inicio">Registrarse</button>
-      <button class="boton_inicio">Volver</button>
+      <textarea class="textbox">Confirme su contraseña aquí</textarea>
+      <p></p>
+      <button class="boton_registro">Registrarse</button>{" "}
+      <button class="boton_registro">Volver</button>
     </div>
   );
 }
 
-export default iniciar_sesion;

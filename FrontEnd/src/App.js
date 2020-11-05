@@ -1,6 +1,9 @@
 import React from "react";
-import "./styles.css";
-import registrarse from "../components/registrarse";
+import "./components/style/styles.css"
+import registrarse from "./components/registrarse";
+import { Link } from "react-router-dom";
+
+
 export default function App() {
   return (
     <div className="App">
@@ -16,11 +19,14 @@ export default function App() {
       </h1>
       <div classname="container">
         <div classname="btn-group">
-          <button class="boton_inicio"></button>
+       
+          <Link to="/iniciarsesion" className="btn btn-primary boton_inicio">
+          Iniciar sesión
+            </Link>
         </div>
         <p></p>
         <div classname="btn-group">
-          <button class="boton_registro"></button>
+          <button class="boton_registro">Botón registro</button>
         </div>
         <registrarse />
         <p></p>

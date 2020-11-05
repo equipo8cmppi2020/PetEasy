@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 
-export default function App() {
+export default function lista_mascotas() {
   return (
     <div className="App">
       <h5>PetEasy</h5>
@@ -19,5 +19,3 @@ export default function App() {
     </div>
   );
 }
-
-export default lista_mascotas;

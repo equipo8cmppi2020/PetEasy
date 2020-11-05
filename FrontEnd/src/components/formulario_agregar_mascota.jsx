@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 
-export default function App() {
+export default function formulario_agregar_mascota() {
   return (
     <div className="App">
       <h1>
@@ -52,4 +52,3 @@ export default function App() {
   );
 }
 
-export default formulario_agregar_mascota;

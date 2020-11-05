@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 
-export default function App() {
+export default function creacion_alerta() {
   return (
     <div className="App">
       <h1>Tipo de Alerta*</h1>
@@ -23,4 +23,3 @@ export default function App() {
   );
 }
 
-export default creacion_alerta;
