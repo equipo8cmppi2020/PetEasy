@@ -1,7 +1,7 @@
 import React from "react";
 import "./style/styles.css";
 import { Link } from "react-router-dom";
-import registrarse from "../components/registrarse";
+import registrarse from "../pages/registrarse";
 export default function App() {
   return (
     <div className="App">
@@ -27,7 +27,7 @@ export default function App() {
         </div>
         <p></p>
         <div classname="btn-group">
-          <Link to="/App" className="btn btn-primary">
+          <Link to="/" className="btn btn-primary">
             Cerrar Sesión
           </Link>
         </div>

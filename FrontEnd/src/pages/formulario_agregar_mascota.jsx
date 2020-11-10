@@ -27,15 +27,15 @@ export default function formulario_agregar_mascota() {
         <option value="1">Tipo de Mascota</option>
         <option value="2">Perro</option>
         <option value="3">Gato</option>
-        <option value="10">Loro</option>
-        <option value="11">Hamster</option>
-        <option value="12">Pez</option>
+        <option value="4">Loro</option>
+        <option value="5">Hamster</option>
+        <option value="6">Pez</option>
       </select>
       """"
-      <select name="Raza">
-        <option value="1">Raza</option>
-        <option value="2"></option>
-        <option value="3"></option>
+      <select name="raza">
+        <option value="7">Raza</option>
+        <option value="8"></option>
+        <option value="9"></option>
         <option value="10"></option>
         <option value="11"></option>
         <option value="12"></option>

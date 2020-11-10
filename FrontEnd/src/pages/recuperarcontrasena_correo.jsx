@@ -24,6 +24,9 @@ export default function recuperarcontraseña_correo() {
           <Link to="/codigo" className="btn btn-primary boton_separacion">
             Enviar Código
           </Link>
+          <Link to="/" className="btn btn-primary">
+            Volver
+          </Link>
         </div>
       </div>
     </div>

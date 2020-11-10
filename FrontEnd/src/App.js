@@ -1,6 +1,6 @@
 import React from "react";
-import "./components/style/styles.css";
-import registrarse from "./components/registrarse";
+import "./pages/style/styles.css";
+import registrarse from "./pages/registrarse";
 import { Link } from "react-router-dom";
 
 export default function App() {

@@ -9,11 +9,12 @@ import lista from "./lista_mascotas";
 import correo from "./recuperarcontrasena_correo";
 import codigo from "./recuperarcontrasena_codigo";
 import editarbano from "./editar_bano";
+import editaralimentacion from "./editar_alimentacion";
 function Aplicacion() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/app" component={App} />
+        <Route exact path="/" component={App} />
         <Route exact path="/iniciarsesion" component={iniciarsesion} />
         <Route exact path="/registrarse" component={registrarse} />
         <Route exact path="/inicio" component={inicio} />
@@ -21,7 +22,8 @@ function Aplicacion() {
         <Route exact path="/lista" component={lista} />
         <Route exact path="/correo" component={correo} />
         <Route exact path="/codigo" component={codigo} />
-        <Route exact path="/editarbano" component={editarbano} />
+        <Route exact path="/bano" component={editarbano} />
+        <Route exact path="/alimentacion" component={editaralimentacion} />
       </Switch>
     </BrowserRouter>
   );

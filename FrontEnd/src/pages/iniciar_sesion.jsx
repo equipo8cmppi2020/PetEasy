@@ -30,7 +30,7 @@ export default function iniciar_sesion() {
       <Link to="/inicio" className="btn btn-primary boton_separacion">
         Iniciar Sesión
       </Link>
-      <Link to="/app" className="btn btn-primary">
+      <Link to="/" className="btn btn-primary">
         Volver
       </Link>
     </div>

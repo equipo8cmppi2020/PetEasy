@@ -29,7 +29,7 @@ export default function registrarse() {
       <Link to="/inicio" className="btn btn-primary boton_separacion">
         Registrarse
       </Link>
-      <Link to="/App" className="btn btn-primary boton_separacion">
+      <Link to="/" className="btn btn-primary boton_separacion">
         Volver
       </Link>
     </div>
