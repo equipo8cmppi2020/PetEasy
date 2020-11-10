@@ -1,10 +1,11 @@
 import React from "react";
-import "./styles.css";
+import "./style/styles.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 export default function App() {
   return (
     <div className="App">
       <h1>
+        <h5>PetEasy</h5>
         <img
           src="https://i.imgur.com/rVTvJoV.png"
           alt=""
@@ -14,30 +15,32 @@ export default function App() {
         />
       </h1>
       <h4>Horario de alimentacion</h4>
-      <Router>
-        <div classname="container">
-          <div classname="btn-group">
-            <button class="btn_edthralimen">
-              <Link to="">Editar horario</Link>
-            </button>
-          </div>
-          <h4>Horario baño</h4>
-          <p></p>
-          <div classname="btn-group">
-            <button class="btn_edthrbaño">
-              <Link to="">Editar horario</Link>
-            </button>
-          </div>
-          <button class="btn_vuelve">
-            <Link to="">Volver</Link>
-          </button>
-
-          <button class="btn_aggho">
-            <Link to="">Agregar horario</Link>
-          </button>
-          <p></p>
+      <div classname="container">
+        <div classname="btn-group">
+          <Link to="/alimentacion" className="btn btn-primary boton_separacion">
+            Editar horario
+          </Link>
         </div>
-      </Router>
+        <h4>Horario de baño</h4>
+        <div classname="btn-group">
+          <Link to="/bano" className="btn btn-primary boton_separacion">
+            Editar horario
+          </Link>
+        </div>
+        <p />
+        <Link to="/lista" className="btn btn-primary boton_separacion">
+          Volver
+        </Link>
+        <Link to="horarios" className="btn btn-primary boton_separacion">
+          Editar lista
+        </Link>
+        <p />
+        <Link to="alimentacion" className="btn btn-primary boton_separacion">
+          Agregar horario
+        </Link>
+        <p />
+        <p></p>
+      </div>
     </div>
   );
 }

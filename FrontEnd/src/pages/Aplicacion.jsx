@@ -10,6 +10,7 @@ import correo from "./recuperarcontrasena_correo";
 import codigo from "./recuperarcontrasena_codigo";
 import editarbano from "./editar_bano";
 import editaralimentacion from "./editar_alimentacion";
+import listahorarios from "./lista_de_horarios";
 function Aplicacion() {
   return (
     <BrowserRouter>
@@ -24,6 +25,7 @@ function Aplicacion() {
         <Route exact path="/codigo" component={codigo} />
         <Route exact path="/bano" component={editarbano} />
         <Route exact path="/alimentacion" component={editaralimentacion} />
+        <Route exact path="/horarios" component={listahorarios} />
       </Switch>
     </BrowserRouter>
   );

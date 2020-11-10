@@ -21,7 +21,7 @@ export default function lista_mascotas() {
         height="100"
       />{" "}
       Paco
-      <Link to="/inicio" className="btn btn-primary boton_separacion2">
+      <Link to="/horarios" className="btn btn-primary boton_separacion2">
         Editar horarios
       </Link>
       <p />

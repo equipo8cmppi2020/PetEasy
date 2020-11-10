@@ -57,10 +57,10 @@ export default function editar_bano() {
         <option value="9">Domingo</option>
       </select>
       <p />
-      <Link to="/lista" className="btn btn-primary">
+      <Link to="/horarios" className="btn btn-primary">
         Volver
       </Link>
-      <Link to="/lista" className="btn btn-primary boton_separacion2">
+      <Link to="/horarios" className="btn btn-primary boton_separacion2">
         Guardar Cambios
       </Link>
       <p />

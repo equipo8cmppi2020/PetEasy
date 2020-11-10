@@ -47,7 +47,8 @@ export default function editar_alimentacion() {
         <option value="2">pm</option>
       </select>
       <p />
-    <h5>Tiempo de Anticipación</h5><p />
+      <h5>Tiempo de Anticipación</h5>
+      <p />
       <select classname="tiempo_anticipacion" name="tiempo-anticipacion">
         <option value="3">2 Minutos</option>
         <option value="4">3 Minutos</option>
@@ -58,10 +59,10 @@ export default function editar_alimentacion() {
         <option value="9">10 Minutos</option>
       </select>
       <p />
-      <Link to="/lista" className="btn btn-primary">
+      <Link to="/horarios" className="btn btn-primary">
         Volver
       </Link>
-      <Link to="/lista" className="btn btn-primary boton_separacion2">
+      <Link to="/horarios" className="btn btn-primary boton_separacion2">
         Guardar Cambios
       </Link>
       <p />
