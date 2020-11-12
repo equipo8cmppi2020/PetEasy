@@ -30,9 +30,7 @@ export default function App() {
           <Link
             to="/"
             className="btn btn-primary"
-            onClick={() =>
-              window.confirm("Estás seguro que deseas eliminar esta mascota? ")
-            }
+            onClick={() => window.confirm("Estás seguro de cerrar sesión? ")}
           >
             Cerrar Sesión
           </Link>
