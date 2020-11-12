@@ -14,18 +14,25 @@ export default function registrarse() {
           height="230"
         />
       </h1>
-      <h5 class="textreference">Correo*</h5>
-      <p></p>
-      <textarea class="textbox">Inserte su correo aquí</textarea>
-      <p></p>
-      <h5 class="textreference">Contraseña*</h5>
-      <p></p>
-      <textarea class="textbox">Inserte su contraseña aquí</textarea>
-      <p></p>
-      <h5 class="textreference">Confirmar contraseña*</h5>
-      <p></p>
-      <textarea class="textbox">Confirme su contraseña aquí</textarea>
-      <p></p>
+      <div classname="container" />
+      <h5>Correo electronico*</h5>
+      <div classname="btn-group">
+        <input type="text"></input>
+      </div>
+      <div classname="container" />
+      <div classname="container" />
+      <h5>Contraseña*</h5>
+      <div classname="btn-group">
+        <input type="text"></input>
+      </div>
+      <div classname="container" />
+      <div classname="container" />
+      <h5>Confirmar contraseña*</h5>
+      <div classname="btn-group">
+        <input type="text"></input>
+      </div>
+      <div classname="container" />
+      <p />
       <Link to="/inicio" className="btn btn-primary boton_separacion">
         Registrarse
       </Link>

@@ -86,18 +86,21 @@
 .boton_separacion {
   margin-right: 10px;
 }
-.boton_separacion2{
-  margin-left:5px;
+.boton_separacion2 {
+  margin-left: 5px;
 }
-.arrows{
+.arrows {
   margin-right: 80px;
 }
-.hora{
+.hora {
   font-size: 100px;
 }
-.hora_alimentacion{
+.hora_alimentacion {
   font-size: 100px;
 }
-.arrows2{
+.arrows2 {
   margin-right: 100px;
+}
+.btn2 {
+  background-color: rgb(167, 2, 2);
 }

@@ -11,6 +11,7 @@ import codigo from "./recuperarcontrasena_codigo";
 import editarbano from "./editar_bano";
 import editaralimentacion from "./editar_alimentacion";
 import listahorarios from "./lista_de_horarios";
+import editarlista from "./editar_lista";
 function Aplicacion() {
   return (
     <BrowserRouter>
@@ -26,6 +27,7 @@ function Aplicacion() {
         <Route exact path="/bano" component={editarbano} />
         <Route exact path="/alimentacion" component={editaralimentacion} />
         <Route exact path="/horarios" component={listahorarios} />
+        <Route exact path="/editarlista" component={editarlista} />
       </Switch>
     </BrowserRouter>
   );

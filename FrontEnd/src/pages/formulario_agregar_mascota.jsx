@@ -34,11 +34,11 @@ export default function formulario_agregar_mascota() {
       """"
       <select name="raza">
         <option value="7">Raza</option>
-        <option value="8"></option>
-        <option value="9"></option>
-        <option value="10"></option>
-        <option value="11"></option>
-        <option value="12"></option>
+        <option value="8">Chihuahua</option>
+        <option value="9">Yorkshire</option>
+        <option value="10">Pomeranian</option>
+        <option value="11">Bullterrier</option>
+        <option value="12">Bulldog Francés</option>
       </select>
       <br></br>
       <p></p>
