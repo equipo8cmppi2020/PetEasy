@@ -31,10 +31,6 @@ export default function App() {
         <Link to="/lista" className="btn btn-primary boton_separacion">
           Volver
         </Link>
-        <Link to="horarios" className="btn btn-primary boton_separacion">
-          Editar lista
-        </Link>
-        <p />
         <Link to="alimentacion" className="btn btn-primary boton_separacion">
           Agregar horario
         </Link>
