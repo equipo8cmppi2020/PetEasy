@@ -33,6 +33,9 @@ export default function App() {
         <p></p>
       </div>
       <h6>Todos los campos con (*) son obligatorios</h6>
+      <Link to="/notificacion" className="btn btn-primary">
+        Ejemplo de notificación
+      </Link>
     </div>
   );
 }

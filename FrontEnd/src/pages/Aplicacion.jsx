@@ -12,6 +12,7 @@ import editarbano from "./editar_bano";
 import editaralimentacion from "./editar_alimentacion";
 import listahorarios from "./lista_de_horarios";
 import editarlista from "./editar_lista";
+import notificacion from "./ejemplo_notificacion";
 function Aplicacion() {
   return (
     <BrowserRouter>
@@ -28,6 +29,7 @@ function Aplicacion() {
         <Route exact path="/alimentacion" component={editaralimentacion} />
         <Route exact path="/horarios" component={listahorarios} />
         <Route exact path="/editarlista" component={editarlista} />
+        <Route exact path="/notificacion" component={notificacion} />
       </Switch>
     </BrowserRouter>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.css";
+import "./style/styles.css";
 
 export default function creacion_alerta() {
   return (
@@ -22,4 +22,3 @@ export default function creacion_alerta() {
     </div>
   );
 }
-
