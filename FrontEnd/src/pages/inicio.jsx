@@ -27,7 +27,13 @@ export default function App() {
         </div>
         <p></p>
         <div classname="btn-group">
-          <Link to="/" className="btn btn-primary">
+          <Link
+            to="/"
+            className="btn btn-primary"
+            onClick={() =>
+              window.confirm("Estás seguro que deseas eliminar esta mascota? ")
+            }
+          >
             Cerrar Sesión
           </Link>
         </div>
