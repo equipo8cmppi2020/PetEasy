@@ -31,7 +31,7 @@ export default function iniciar_sesion() {
       </Link>
       <p></p>
       <Link to="/inicio" className="btn btn-primary boton_separacion">
-        Iniciar Sesión
+        Iniciar sesión
       </Link>
       <Link to="/" className="btn btn-primary">
         Volver

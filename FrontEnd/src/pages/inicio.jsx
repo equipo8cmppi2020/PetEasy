@@ -16,13 +16,13 @@ export default function App() {
         />
       </h1>
       <Link to="/formulario" className="btn btn-primary">
-        Agregar Mascota
+        Agregar mascota
       </Link>
       <p></p>
       <div classname="container">
         <div classname="btn-group">
           <Link to="/lista" className="btn btn-primary">
-            Lista de Mascotas
+            Lista de mascotas
           </Link>
         </div>
         <p></p>
@@ -32,7 +32,7 @@ export default function App() {
             className="btn btn-primary"
             onClick={() => window.confirm("Estás seguro de cerrar sesión? ")}
           >
-            Cerrar Sesión
+            Cerrar sesión
           </Link>
         </div>
         <registrarse />
