@@ -25,7 +25,7 @@ function Aplicacion() {
         <Route exact path="/lista" component={lista} />
         <Route exact path="/correo" component={correo} />
         <Route exact path="/codigo" component={codigo} />
-        <Route exact path="/bano" component={editarbano} />
+        <Route exact path="/baño" component={editarbano} />
         <Route exact path="/alimentacion" component={editaralimentacion} />
         <Route exact path="/horarios" component={listahorarios} />
         <Route exact path="/editarlista" component={editarlista} />

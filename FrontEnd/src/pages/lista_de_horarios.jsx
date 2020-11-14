@@ -23,7 +23,7 @@ export default function App() {
         </div>
         <h4>Horario de baño</h4>
         <div classname="btn-group">
-          <Link to="/bano" className="btn btn-primary boton_separacion">
+          <Link to="/baño" className="btn btn-primary boton_separacion">
             Editar horario
           </Link>
         </div>
