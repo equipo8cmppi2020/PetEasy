@@ -61,7 +61,7 @@ export default function editar_bano() {
         Volver
       </Link>
       <Link to="/horarios" className="btn btn-primary boton_separacion2">
-        Guardar Cambios
+        Guardar cambios
       </Link>
       <p />
     </div>

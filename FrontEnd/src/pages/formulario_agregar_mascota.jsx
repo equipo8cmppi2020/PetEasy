@@ -24,7 +24,7 @@ export default function formulario_agregar_mascota() {
       <br></br>
       <p></p>
       <select classname="tipo_mascotas" name="Mascota">
-        <option value="1">Tipo de Mascota</option>
+        <option value="1">Tipo de mascota</option>
         <option value="2">Perro</option>
         <option value="3">Gato</option>
         <option value="4">Loro</option>
@@ -47,7 +47,7 @@ export default function formulario_agregar_mascota() {
       <input type="checkbox" class="checkbox"></input>Horario de baño <br></br>
       <p></p>
       <Link to="/lista" className="btn btn-primary boton_separacion">
-        Agregar Mascota
+        Agregar mascota
       </Link>
       <Link to="/inicio" className="btn btn-primary boton_separacion">
         Volver
