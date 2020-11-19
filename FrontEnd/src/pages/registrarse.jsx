@@ -39,6 +39,41 @@ export default function registrarse() {
       <Link to="/" className="btn btn-primary boton_separacion">
         Volver
       </Link>
+      <p />
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
     </div>
   );
 }

@@ -36,6 +36,48 @@ export default function App() {
       <Link to="/notificacion" className="btn btn-primary">
         Ejemplo de notificación
       </Link>
+      <p />
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
+      <button class="boton1"></button>
     </div>
   );
 }

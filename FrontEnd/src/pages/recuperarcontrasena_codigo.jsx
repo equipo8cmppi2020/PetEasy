@@ -24,6 +24,56 @@ export default function recuperarcontraseña_codigo() {
           <Link to="/registrarse" className="btn btn-primary boton_separacion">
             Validar Código
           </Link>
+          <p />
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
+          <button class="boton1"></button>
         </div>
       </div>
     </div>
