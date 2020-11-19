@@ -38,42 +38,6 @@ export default function iniciar_sesion() {
       </Link>
       <p />
       <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
     </div>
   );
 }

@@ -26,54 +26,6 @@ export default function recuperarcontraseña_codigo() {
           </Link>
           <p />
           <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
-          <button class="boton1"></button>
         </div>
       </div>
     </div>

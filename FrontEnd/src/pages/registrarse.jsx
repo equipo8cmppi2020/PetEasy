@@ -41,39 +41,6 @@ export default function registrarse() {
       </Link>
       <p />
       <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
-      <button class="boton1"></button>
     </div>
   );
 }
