@@ -1,18 +1,19 @@
-const mysql      = require('mysql');
-const connection = mysql.createConnection({
-  host     : 'br9cpdzhfcmkt1tmto3k-mysql.services.clever-cloud.com',
-  user     : 'udddvq1kxkzjvzvk',
-  password : 'lscLjJvmTNp9cR2FSHd9',
-  database : 'bypvei6sunkubboypedd'
-});
+const util = require('util')
+var mysql = require('mysql');
+var mysqlConnection  = mysql.createConnection({
+  connectionLimit: 10,
+  host: process.env.HOST_DB,
+  user: process.env.USER_DB,
+  password: process.env.PASSWORD_DB,
+  database: process.env.DATABASE,
+  multipleStatements: true
+})
 
-connection.connect((error) => {
-    if(error){
-      console.log(`Error en conexión a base de datos: ${error}`)
-      return;
-    }else{
-      console.log("Conexión extablecida con el servidor de MySQL")
-    }
-});
+mysqlConnection.on('relase', (connection)=>{
+  console.log('connection %d relase', connection.threadId);
+})
 
-module.exports =  {connection: connection}
+mysqlConnection.query = util.promisify(mysqlConnection.query);
+
+
+module.exports = mysqlConnection;
