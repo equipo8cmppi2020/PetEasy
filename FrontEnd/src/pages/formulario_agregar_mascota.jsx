@@ -19,12 +19,12 @@ export default function formulario_agregar_mascota() {
             height="230"
           />
         </h1>
-<form action="/doble-input" method="post" 
-enctype="multipart/form-data">
-      <input type="file" name="fichero"/><p />
-    <button type="submit">Enviar</button>
-</form>
-<p />
+        <form action="/doble-input" method="post" enctype="multipart/form-data">
+          <input type="file" name="fichero" />
+          <p />
+          <button type="submit">Enviar</button>
+        </form>
+        <p />
         Nombre de la mascota<br></br>
         <div classname="container" />
         <div classname="btn-group">

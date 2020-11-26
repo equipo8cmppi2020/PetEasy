@@ -1,6 +1,21 @@
 import React from "react";
 import "./style/styles.css";
 import { Link } from "react-router-dom";
+var hora = 0;
+var minuto = 0;
+const horasuma = hora + 1;
+if (hora > 12) {
+  hora - 1;
+}
+if (hora < 0) {
+  hora + 1;
+}
+if (minuto > 60) {
+  minuto - 1;
+}
+if (minuto < 0) {
+  minuto + 1;
+}
 export default function editar_alimentacion() {
   return (
     <div className="App">
@@ -13,34 +28,44 @@ export default function editar_alimentacion() {
         height="100"
       />
       <h1>Alimentación</h1>
-      <img
-        class="arrows"
-        src="https://freepngimg.com/thumb/web_design/24677-8-up-arrow-transparent-image.png"
-        alt=""
-        height="50px"
-        width="50px"
-      />
-      <img
-        src="https://freepngimg.com/thumb/web_design/24677-8-up-arrow-transparent-image.png"
-        alt=""
-        height="50px"
-        width="50px"
-      />
+      <button class="botonflechas">
+        <img
+          class="arrows"
+          src="https://freepngimg.com/thumb/web_design/24677-8-up-arrow-transparent-image.png"
+          alt=""
+          height="50px"
+          width="50px"
+        />
+      </button>
+      <button class="botonflechas">
+        <img
+          src="https://freepngimg.com/thumb/web_design/24677-8-up-arrow-transparent-image.png"
+          alt=""
+          height="50px"
+          width="50px"
+        />
+      </button>
       <p />
-      <h1 class="hora_alimentacion">10:10</h1>
-      <img
-        class="arrows2"
-        src="https://image.flaticon.com/icons/png/512/7/7657.png"
-        alt=""
-        height="30px"
-        width="30px"
-      />
-      <img
-        src="https://image.flaticon.com/icons/png/512/7/7657.png"
-        alt=""
-        height="30px"
-        width="30px"
-      />
+      <h1>
+        {hora} : {minuto}
+      </h1>
+      <button class="botonflechas" onClick={() => horasuma}>
+        <img
+          class="arrows2"
+          src="https://image.flaticon.com/icons/png/512/7/7657.png"
+          alt=""
+          height="30px"
+          width="30px"
+        />
+      </button>
+      <button class="botonflechas">
+        <img
+          src="https://image.flaticon.com/icons/png/512/7/7657.png"
+          alt=""
+          height="30px"
+          width="30px"
+        />
+      </button>
       <p />
       <select classname="hora_dia" name="am-pm">
         <option value="1">am</option>
