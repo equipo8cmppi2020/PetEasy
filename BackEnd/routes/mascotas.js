@@ -38,7 +38,6 @@ router.post("/formulario_agregar_mascota", (req, res) => {
 router.post('/mascotas', cargador.single('imagen'), async (req, res) => {
   try {
     const {
-      id_mascota,
       raza,
       nombre_mascota,
       tipo_mascota,
