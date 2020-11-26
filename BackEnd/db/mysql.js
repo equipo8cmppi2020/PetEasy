@@ -1,4 +1,5 @@
 const util = require('util');
+require('dotenv').config();
 var mysql = require('mysql');
 var mysqlConnection  = mysql.createConnection({
   connectionLimit: 10,
