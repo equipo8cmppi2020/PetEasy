@@ -2,16 +2,6 @@ const { Router } = require("express")
 const router = Router()
 const mysqlConnection = require('../db/mysql')
     
-/*router.get("/usuarios", (req, res) => {
-    mysqlConnection.query('SELECT * FROM usuario',  (error, rows, fields) => {
-        if(!error){
-            res.json(rows)
-        }else{
-            res.json({error: "Error ejecutando la consulta"})
-        }
-    })
-})*/
-
 router.get('/usuario',(req,res)=>{
   try{
   mysqlConnection.query('SELECT * FROM usuario', (err, rows, fields) => {
@@ -34,26 +24,15 @@ router.post("/iniciar_sesion", (req, res) => {
 router.post('/usuario', async(req,res) => {
   try{
     const {
-        documento,
-        tipo_documento,
-        nombres,
-        apellidos,
         contrasena,
-        correo,
-        telefono_celular,
-        numero_expediente,
-        genero,
-        fecha_nacimiento,
-        estado_actor_id,
-        institucion_id,
-        tipo_actor_id
+        nombre_de_usuario
     } = req.body
-    const SQL = `INSERT INTO actores(documento, tipo_documento, nombres, apellidos, contrasena, correo, telefono_celular, numero_expediente, genero, fecha_nacimiento, estado_actor_id, institucion_id,tipo_actor_id) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)` 
-    const DATA = [documento, tipo_documento, nombres, apellidos, contrasena, correo, telefono_celular, numero_expediente, genero, fecha_nacimiento, estado_actor_id, institucion_id, tipo_actor_id]
+    const SQL = `INSERT INTO usuario(contrasena, nombre_de_usuario) VALUES(?, ?)` 
+    const DATA = [contrasena, nombre_de_usuario]
 
-    const response = await connection.query(SQL, DATA)
+    const response = await mysqlConnection.query(SQL, DATA)
 
-    const result = await connection.query(`SELECT * FROM actores WHERE  id = ?`, [response.insertId])
+    const result = await mysqlConnection.query(`SELECT * FROM usuario WHERE  id = ?`, [response.insertId])
 
     res.json(result[0])
   }catch(error){

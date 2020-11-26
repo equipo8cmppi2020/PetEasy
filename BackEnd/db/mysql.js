@@ -1,4 +1,4 @@
-const util = require('util')
+const util = require('util');
 var mysql = require('mysql');
 var mysqlConnection  = mysql.createConnection({
   connectionLimit: 10,

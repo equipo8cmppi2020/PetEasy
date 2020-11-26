@@ -3,6 +3,7 @@ const router = Router()
 const mysqlConnection = require('../db/mysql')
 const multer = require('multer')
 const { v4: uuidv4 } = require('uuid')
+const path = require('path')
 
 const cargador = multer({
   storage: multer.diskStorage({
@@ -31,7 +32,7 @@ router.get('/mascotas', (req, res) => {
 
 
 router.post("/formulario_agregar_mascota", (req, res) => {
-  const { Id_mascota, Raza, Nombre_mascota, Tipo_mascota, Imagen } = req.body
+  const {Raza, Nombre_mascota, Tipo_mascota, Imagen } = req.body
   res.json({ auth: "Mascota creada con exito", status: "Creado", token: "abcd123" })
 })
 router.post('/mascotas', cargador.single('imagen'), async (req, res) => {
@@ -43,11 +44,11 @@ router.post('/mascotas', cargador.single('imagen'), async (req, res) => {
       tipo_mascota,
     } = req.body
     var imagen = JSON.stringify(req.file)
-    const SQL = `INSERT INTO mascotas(id_mascota, raza, nombre_mascota, tipo_mascota, imagen) VALUES(?)`
-    const DATA = [id_mascota, raza, nombre_mascota, tipo_mascota, imagen]
-    const response = await connection.query(SQL, DATA)
+    const SQL = `INSERT INTO mascotas(raza, nombre_mascota, tipo_mascota, imagen) VALUES(?, ?, ?, ?)`
+    const DATA = [raza, nombre_mascota, tipo_mascota, imagen]
+    const response = await mysqlConnection.query(SQL, DATA)
 
-    const result = await connection.query(`SELECT * FROM mascotas WHERE  id = ?`, [response.insertId])
+    const result = await mysqlConnection.query(`SELECT * FROM mascotas WHERE id_mascota = ?`, [response.insertId])
 
     res.json(result[0])
   } catch (error) {

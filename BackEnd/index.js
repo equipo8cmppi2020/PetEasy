@@ -13,6 +13,7 @@ app.use(express.static('public'));
 
 //Routes
 app.use("/api/", require("./routes/usuarios"))
+app.use("/api/", require("./routes/mascotas"))
 
 app.get("/", (req, res) => {
   res.send("Api CRUD")
