@@ -1,49 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style/styles.css";
 import { Link } from "react-router-dom";
-var a = 0;
-var b = 0;
-function aumentarhora() {
-  a++;
-  return false;
-}
-function disminuirhora() {
-  a--;
-  return false;
-}
-function aumentarminutos() {
-  b++;
-  return false;
-}
-function disminuirminutos() {
-  b--;
-  return false;
-}
-if (a > 12) {
-  a - 1;
-}
-if (a < 0) {
-  a + 1;
-}
-if (b > 60) {
-  b - 1;
-}
-if (b < 0) {
-  b + 1;
-}
-export default function editar_alimentacion() {
+export default function EditarAlimentacion() {
+  const [contadora, setContadora] = useState(0);
+  const [contadorb, setContadorb] = useState(0);
   return (
     <div className="App">
       <h6>PetEasy</h6>
       <img
         src="https://i.imgur.com/rVTvJoV.png"
         alt=""
-        classname=""
+        className=""
         width="100"
         height="100"
       />
       <h1>Alimentación</h1>
-      <button class="botonflechas">
+      <button
+        className="botonflechas"
+        onClick={() => setContadora(contadora + 1)}
+      >
         <img
           class="arrows"
           src="https://freepngimg.com/thumb/web_design/24677-8-up-arrow-transparent-image.png"
@@ -52,7 +27,10 @@ export default function editar_alimentacion() {
           width="50px"
         />
       </button>
-      <button class="botonflechas">
+      <button
+        className="botonflechas"
+        onClick={() => setContadorb(contadorb + 1)}
+      >
         <img
           src="https://freepngimg.com/thumb/web_design/24677-8-up-arrow-transparent-image.png"
           alt=""
@@ -62,9 +40,12 @@ export default function editar_alimentacion() {
       </button>
       <p />
       <h1>
-        {a} : {b}
+        {contadora} : {contadorb}
       </h1>
-      <button class="botonflechas" onClick="aumentarhora">
+      <button
+        className="botonflechas"
+        onClick={() => setContadora(contadora - 1)}
+      >
         <img
           class="arrows2"
           src="https://image.flaticon.com/icons/png/512/7/7657.png"
@@ -73,7 +54,10 @@ export default function editar_alimentacion() {
           width="30px"
         />
       </button>
-      <button class="botonflechas">
+      <button
+        className="botonflechas"
+        onClick={() => setContadorb(contadorb - 1)}
+      >
         <img
           src="https://image.flaticon.com/icons/png/512/7/7657.png"
           alt=""
@@ -82,14 +66,14 @@ export default function editar_alimentacion() {
         />
       </button>
       <p />
-      <select classname="hora_dia" name="am-pm">
+      <select className="hora_dia" name="am-pm">
         <option value="1">am</option>
         <option value="2">pm</option>
       </select>
       <p />
       <h5>Tiempo de anticipación</h5>
       <p />
-      <select classname="tiempo_anticipacion" name="tiempo-anticipacion">
+      <select className="tiempo_anticipacion" name="tiempo-anticipacion">
         <option value="3">2 Minutos</option>
         <option value="4">3 Minutos</option>
         <option value="5">4 Minutos</option>
