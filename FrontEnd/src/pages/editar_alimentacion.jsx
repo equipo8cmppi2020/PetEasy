@@ -1,20 +1,35 @@
 import React from "react";
 import "./style/styles.css";
 import { Link } from "react-router-dom";
-var hora = 0;
-var minuto = 0;
-const horasuma = hora + 1;
-if (hora > 12) {
-  hora - 1;
+var a = 0;
+var b = 0;
+function aumentarhora() {
+  a++;
+  return false;
 }
-if (hora < 0) {
-  hora + 1;
+function disminuirhora() {
+  a--;
+  return false;
 }
-if (minuto > 60) {
-  minuto - 1;
+function aumentarminutos() {
+  b++;
+  return false;
 }
-if (minuto < 0) {
-  minuto + 1;
+function disminuirminutos() {
+  b--;
+  return false;
+}
+if (a > 12) {
+  a - 1;
+}
+if (a < 0) {
+  a + 1;
+}
+if (b > 60) {
+  b - 1;
+}
+if (b < 0) {
+  b + 1;
 }
 export default function editar_alimentacion() {
   return (
@@ -47,9 +62,9 @@ export default function editar_alimentacion() {
       </button>
       <p />
       <h1>
-        {hora} : {minuto}
+        {a} : {b}
       </h1>
-      <button class="botonflechas" onClick={() => horasuma}>
+      <button class="botonflechas" onClick="aumentarhora">
         <img
           class="arrows2"
           src="https://image.flaticon.com/icons/png/512/7/7657.png"
